@@ -1,5 +1,5 @@
 import { getPostBySlug, getAllPosts } from '@/lib/getPosts';
-import ThoughtPost from './ThoughtPost';
+import ThoughtPost from './ThoughPost';
 
 export async function generateStaticParams() {
   const posts = await getAllPosts();
