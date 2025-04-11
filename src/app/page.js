@@ -12,7 +12,10 @@ export default function Home() {
           height={200}
         />
         <h1 className="text-4xl font-serif tracking-wider">QESTOR</h1>
-        <p className="text-lg italic text-neutral-600">"Dubitando Veritatem Quaerit"</p>
+        <p className="text-lg italic text-neutral-600">
+  &quot;Dubitando Veritatem Quaerit&quot;
+    </p>
+
 
         <nav className="mt-10 space-x-6 text-sm">
           <Link href="/about" className="hover:underline">About</Link>
